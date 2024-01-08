@@ -20,7 +20,7 @@ def search_dwh():
 
     # Gets a SQL query generated using OpenAI API for the user request
     query = logic.get_query(request_usr_val)
-    print(query) # Used for testing accuracy of the OpenAI model responses
+    # print(query) # Used for testing accuracy of the OpenAI model responses
 
     # Runs the SQL query against the data warehouse and gets a response
     # Returns this response in JSON format
